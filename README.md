@@ -83,14 +83,7 @@ https://bitbucket.org/jamescussens/pygobnilp
 # Workflow
 
 The workflow used in this project:
-Dataset
-↓
-pygobnilp (compute local scores)
-↓
-score file
-↓
-Dynamic programming algorithm (this project)
-↓
+Dataset -> pygobnilp (compute local scores) -> score file -> Dynamic programming algorithm (this project) ->
 Optimal Bayesian Network
 
 
